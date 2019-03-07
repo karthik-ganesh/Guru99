@@ -9,8 +9,7 @@ public class AppTest {
 	protected WebDriver driver;
 	@Test
   public void guru99tutorials() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-		        "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
         String eTitle = "Meet Guru99";
         String aTitle = "";
